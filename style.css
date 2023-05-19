@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,400;1,500&family=Poppins:wght@100;300;400;500&display=swap');
 
 * {
   padding: 0;
@@ -7,3 +7,119 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
+
+.header,
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  width: 1366px;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 1px 10px 3px rgb(196, 196, 196);
+}
+
+.logo {
+  align-items: center;
+  justify-content: flex-start;
+width: 155px;
+height: 3.5em;
+}
+
+div.right {
+  display: flex;
+  margin-left: 890px;
+}
+
+.icons-header {
+  padding: 15px;
+}
+
+.acccount {
+  margin-top: 90px;
+}
+
+.bi {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 35px;
+  padding: 15px;
+}
+
+.title-home {
+  margin-top: 50px;
+  width: 700px;
+  margin-left: 70px;
+  font-size: 1.6rem;
+}
+
+span.span-title {
+  color: #DCB700;
+}
+
+span.span-subtitle {
+  color: #6616c2;
+}
+
+
+h4.subtitle {
+  font-size: 1.3rem;
+  margin-top: 25px;
+  margin-bottom: 60px;
+  width: 530px;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#img-home {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  margin-left: 850px;
+  margin-top: -290px;
+}
+
+a.button-text-home {
+  padding-left: 50px;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background-color: #512386;
+  margin-left: 70px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#sign-up {
+  margin-left: 10px;
+}
+
+#sign-up:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #7336b9;
+  transition: 0.3s;
+}
+
+#sign-in:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #7336b9;
+  transition: 0.3s;
+}
+
+.divider {
+  border: 0.5px solid #dcb700a2;
+  width: 1400px;
+  margin-left: -50px;
+  margin-top: 100px;
+}
+
+
