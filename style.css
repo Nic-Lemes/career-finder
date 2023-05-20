@@ -26,8 +26,8 @@ body {
 .logo {
   align-items: center;
   justify-content: flex-start;
-width: 155px;
-height: 3.5em;
+  width: 155px;
+  height: 3.5em;
 }
 
 div.right {
@@ -39,9 +39,13 @@ div.right {
   padding: 15px;
 }
 
-.acccount {
-  margin-top: 90px;
-}
+.account {
+  margin-top: 5px;
+  text-decoration: none;
+  color: #6616c2;
+  
+}  
+
 
 .bi {
   font-size: 1.4rem;
