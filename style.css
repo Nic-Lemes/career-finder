@@ -10,6 +10,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: ;
 }
 
 .header,
@@ -17,39 +18,58 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 70px;
+  height: 60px;
   width: 1366px;
   background-color: rgb(248, 248, 248);
   box-shadow: 0px 1px 10px 3px rgb(196, 196, 196);
 }
 
 .logo {
+  margin-top: -2px;
+  margin-left: 30px;
   align-items: center;
   justify-content: flex-start;
-  width: 155px;
-  height: 3.5em;
+  width: 200px;
+  height: 30px;
 }
 
-div.right {
-  display: flex;
-  margin-left: 890px;
+#career {
+  color: #DAA520;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-.icons-header {
-  padding: 15px;
+#finder {
+  color: #622BBC;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
+
 
 .account {
-  margin-top: 5px;
+  width: 110px;
+  height: 35px;
+  margin-top: 0px;
   text-decoration: none;
-  color: #6616c2;
-  
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: ;
+  border: 1px solid black;
+  margin-left: 900px;
+  padding: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
+  stroke: #000;
 }  
 
-
-.bi {
-  font-size: 1.4rem;
-  cursor: pointer;
+#menu {
+  width: 30px;
+  height: 25px;
+  margin-left: 50px;
+  margin-right: 30px;
 }
 
 .content {
@@ -57,19 +77,19 @@ div.right {
   padding: 15px;
 }
 
-.title-home {
-  margin-top: 50px;
-  width: 700px;
-  margin-left: 70px;
-  font-size: 1.6rem;
+h2.title { 
+  font-size: 26px;
+  align-items: center;
+  text-align: center;
+  margin-top: -10px;
 }
 
-span.span-title {
-  color: #DCB700;
+span#gold {
+  color: #DAA520;
 }
 
-span.span-subtitle {
-  color: #6616c2;
+span#purple {
+  color: #622BBC;
 }
 
 
@@ -82,24 +102,6 @@ h4.subtitle {
   font-family: 'Montserrat', sans-serif;
 }
 
-#img-home {
-  width: 350px;
-  height: 350px;
-  display: flex;
-  margin-left: 850px;
-  margin-top: -290px;
-}
-
-a.button-text-home {
-  padding-left: 50px;
-  padding: 12px 18px;
-  border-radius: 10px;
-  background-color: #512386;
-  margin-left: 70px;
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-}
 
 #sign-up {
   margin-left: 10px;
@@ -117,6 +119,24 @@ a.button-text-home {
   color: #000;
   border: 1px solid #7336b9;
   transition: 0.3s;
+}
+
+input {
+  border: 1px solid #000;
+  width: 600px;
+  height: 80px;
+  border-radius: 35px;
+  padding: 30px;
+  margin-top: 40px;
+  margin-left: 370px;
+  background-color: #fcfcfc;
+  box-shadow: ;
+}
+
+#filter::-webkit-input-placeholder{
+  color:#888;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .divider {
