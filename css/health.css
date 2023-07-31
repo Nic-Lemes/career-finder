@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-height: 150px; /* Ajuste a altura conforme necessário */
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card h2, .card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.card h2 {
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 14px;
+  font-style: italic;
+}

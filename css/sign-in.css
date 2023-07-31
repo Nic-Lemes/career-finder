@@ -1,0 +1,175 @@
+/*********** IMPORTING FONTS ***********/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,400;1,500&family=Poppins:wght@100;300;400;500&family=Rubik:wght@300;400;500;700&display=swap');
+
+/*********** SETTING RULES ***********/
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*********** BODY ***********/
+body {
+  background: linear-gradient(90deg, #010440 0%, #2B278C 51.04%, #5451A6 100%) no-repeat;
+  overflow-x: hidden;
+}
+
+/*********** HEADER **********/
+.header,
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 1366px;
+  background: linear-gradient(90deg, #010440 0%, #2B278C 51.04%, #5451A6 100%);
+  box-shadow: 0px 1px 0px 0px rgb(196, 196, 196);
+}
+
+/*********** LOGO **********/
+.logo {
+  margin-top: -2px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  height: 30px;
+}
+
+#career {
+  color: #DAA520;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#finder {
+  color: #622BBC;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/*********** SIGN IN **********/
+.account {
+  width: 110px;
+  height: 35px;
+  margin-top: 0px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: 900px;
+  padding: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
+  stroke: #000;
+  background: #DAA520;
+} 
+
+a#sign-up.account {
+  width: 125px;
+  margin-top: -46px;
+  display: flex;
+  justify-content: center;
+  margin-left: 980px;
+  background: #FFF;
+}
+
+/*********** MENU HAMBURGUER **********/
+#menu {
+  width: 30px;
+  height: 25px;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.center-card {
+  width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  background: #D9D9D9;
+  margin-top: 40px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 410px;
+  padding: 5px;
+}
+
+/*********** LINKED OTHER ACCOUNTS **********/
+.linked-register {
+  padding: 3px;
+  border-radius: 30px;
+  background: #0075FF;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.50);
+}
+
+a#linked-facebook{
+  color: #000;
+}
+
+a#linked-google {
+  color: #000;
+}
+
+.icons-linked-register {
+  width: 30px;
+  height: 30px;
+}
+
+#title {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 15px;
+  display: grid;
+}
+
+#subtitle {
+  font-size: 16px;
+}
+
+.inputs {
+  width: 430px;
+  height: 55px;
+  border-radius: 15px;
+  padding-left: 25px;
+  margin-left: 35px;
+  margin-top: 5px;
+  font-weight: 700;
+  color: #9A9A9A;
+}
+
+#email {
+  margin-bottom: -12px;
+}
+
+.fine-print {
+  color: #777;
+  text-align: center;
+  font-size: 12px;
+}
+
+#forgot-password {
+  margin-top: 15px;
+}
+
+#create-account {
+  margin-top: 20px;
+}
+
+#a-create-account {
+  text-decoration: none;
+}
+

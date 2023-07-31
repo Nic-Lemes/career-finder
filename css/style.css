@@ -1,5 +1,7 @@
+/*********** IMPORTING FONTS ***********/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,400;1,500&family=Poppins:wght@100;300;400;500&display=swap');
 
+/*********** SETTING RULES ***********/
 * {
   padding: 0;
   border: 0;
@@ -8,11 +10,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
+/* body {
   background-color: ;
-}
+} */
 
+/*********** HEADER **********/
 .header,
 .header-nav {
   display: flex;
@@ -24,6 +26,7 @@ body {
   box-shadow: 0px 1px 10px 3px rgb(196, 196, 196);
 }
 
+/*********** LOGO **********/
 .logo {
   margin-top: -2px;
   margin-left: 30px;
@@ -47,7 +50,7 @@ body {
   letter-spacing: 1px;
 }
 
-
+/*********** SIGN IN **********/
 .account {
   width: 110px;
   height: 35px;
@@ -57,7 +60,6 @@ body {
   background-color: #fff;
   text-align: center;
   border-radius: 20px;
-  box-shadow: ;
   border: 1px solid black;
   margin-left: 900px;
   padding: 4px;
@@ -65,6 +67,7 @@ body {
   stroke: #000;
 }  
 
+/*********** MENU HAMBURGUER **********/
 #menu {
   width: 30px;
   height: 25px;
@@ -72,6 +75,7 @@ body {
   margin-right: 30px;
 }
 
+/*********** MAIN SECTION **********/
 .content {
   margin-top: 35px;
   padding: 15px;
@@ -93,34 +97,7 @@ span#purple {
 }
 
 
-h4.subtitle {
-  font-size: 1.3rem;
-  margin-top: 25px;
-  margin-bottom: 60px;
-  width: 530px;
-  text-align: left;
-  font-family: 'Montserrat', sans-serif;
-}
-
-
-#sign-up {
-  margin-left: 10px;
-}
-
-#sign-up:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #7336b9;
-  transition: 0.3s;
-}
-
-#sign-in:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #7336b9;
-  transition: 0.3s;
-}
-
+/*********** SEARCH BAR **********/
 input {
   border: 1px solid #000;
   width: 600px;
@@ -138,6 +115,34 @@ input {
   font-weight: bold;
   font-size: 15px;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0;
+}
+
+.card i {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+
+
+
 
 .divider {
   border: 0.5px solid #dcb700a2;
