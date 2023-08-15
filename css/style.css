@@ -107,7 +107,7 @@ input {
   margin-top: 40px;
   margin-left: 370px;
   background-color: #fcfcfc;
-  box-shadow: ;
+  /* box-shadow: ; */
 }
 
 #filter::-webkit-input-placeholder{
