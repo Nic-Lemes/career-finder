@@ -38,18 +38,23 @@
 
         <!-- registration linked with other accounts -->
 
-        <!-- facebook -->
-        <img src="../assets/facebook-icon.png" alt="icon facebook" class="icons-linked-register"/>
-        <a href="" class="linked-register" id="linked-facebook">Entrar com Facebook</a>
-        <span></span> <br>
+        <div class="sign-link">
+          <!-- facebook -->
+          <button class="btns-link" id="facebook-btn">
+            <img src="../assets/facebook-icon.png" alt="Facebook Icon" class="icons">
+            <a href="facebook.com" class="a-link" id="a-link-facebook"><strong>Entrar com Facebook</strong></a>
+          </button>
+          <br>
 
-        <!-- google -->
-        <img src="../assets/google-icon.png" alt="icon google" class="icons-linked-register"/>
-        <a href="" class="linked-register" id="linked-google">Entrar com google</a>
-        <span></span>
+          <!-- google -->
+          <button class="btns-link" id="google-btn">
+            <img src="../assets/google-icon.png" alt="Google Icon" class="icons">
+            <a href="google.com" class="a-link" id="a-link-google"><strong>Entrar com Google</strong></a>
+          </button>
+        </div>
 
         <form action="">
-          <h4 id="subtitle">Ou entre usando:</h4>
+          <h4 id="subtitle" href="google.com">Ou entre usando:</h4>
           <!-- email -->
           <input
             type="email"
@@ -71,32 +76,43 @@
           <h6 id="forgot-password" class="fine-print">Esqueci minha senha</h6>
         </form>
        
-        <input type="submit" value="Entrar">
+        <input type="submit" value="Entrar" id="submit-btn">
         
         <h6 class="fine-print" id="create-account"><a href="sign-up.html" id="a-create-account">Ou crie sua conta</a></h6>
 
 
       </div>
 
-      <!-------- LOGO FOOTER ------->
-  <div class="company-logo">
-    <img src="caminho/para/sua_logo.png" alt="Logo Career Finder">
+      
+      <div class="footer">
+        <!-------- LOGO FOOTER ------->
+        <div class="logo" id="logo-footer">
+          <span id="career">CAREER</span>
+          <span id="finder">FINDER</span> <br>
+
+          <!-- COPYRIGHT -->
+          <span class="copyright">&copy; Career FInder All rights reserved 2023</span>
+        </div>
+
+        
+
+        <!------- SOCIAL MEDIA FOOTER ------->
+  <div class="social-media">
+    <a href="https://www.facebook.com/career_finder" target="_blank" class="icons-social-media"><img src="../assets/icon-facebook-black-48.png" alt="Ícon Facebook"></a>
+  
+    <a href="https://www.instagram.com/career_finder" target="_blank" class="icons-social-media"><img src="../assets/icon-instagram-black-48.png" alt="Ícon Instagram"></a>
+  
+    <a href="https://www.twitter.com/career_finder" target="_blank" class="icons-social-media"><img src="../assets/icon-twitter-black.png" alt="Ícone Twitter"></a>
+  
+    <a href="https://www.tiktok.com/career_finder" target="_blank" class="icons-social-media"><img src="../assets/icon-tiktok-black.png" alt="Ícone TikTok"></a>
+  </div>
+  
+  <p id="names"><strong>
+    Site produzido por
+      <a href="https://github.com/Nic-Lemes"><span class="gold">Nícolas Lemes</span ></a> e
+      <a href=""><span class="gold">Isaac Manfrinato
+  </strong></span></a></p>
 </div>
-
-<!------- SOCIAL MEDIA FOOTER ------->
-<div class="social-media">
-  <a href="https://www.facebook.com/career_finder" target="_blank"><i class="fa fa-facebook"></i></a>
-
-  <a href="https://www.instagram.com/career_finder" target="_blank"><i class="fa fa-instagram"></i></a>
-
-  <a href="https://www.twitter.com/career_finder" target="_blank"><i class="fa fa-twitter"></i></a>
-
-  <a href="https://www.tiktok.com/career_finder" target="_blank"><i class="fa fa-tiktok"></i></a>
-</div>
-
-<p>Site produzido por 
-  <a href="https://github.com/Nic-Lemes"><span>Nícolas Lemes</span></a> e 
-  <a href=""><span>Isaac Manfrinato</span></a></p>
 
     </div>
   </body>
