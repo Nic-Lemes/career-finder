@@ -103,7 +103,24 @@ a#sign-up.account {
 }
 
 #title {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
 
+.subtitle {
+  color: #797979;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+#others {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .inputs {
@@ -114,7 +131,7 @@ a#sign-up.account {
   margin-left: 10px;
   margin-top: 10px;
   font-weight: 700;
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 
 
