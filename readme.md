@@ -4,7 +4,7 @@
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nic-Lemes/career-finder">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/Nic-Lemes/career-finder">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Nic-Lemes/career-finder">
-<img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge">
+<img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge"> 
 
 
 ## Status do Projeto
@@ -12,13 +12,13 @@
 
 
 ## Funcionalidades :pushpin:
-- :heavy_check_mark: Cadastro de Trabalhadores autônomos
-- :heavy_check_mark: Cadastro de conta com Google/Facebook
+- Cadastro de Trabalhadores autônomos
+- Cadastro de conta com Google/Facebook
   - Captura de Avatar a partir do login ou registro com Google/Facebook
-- :heavy_check_mark: Ranking dos trabalhos feitos pelos profissionais
-- :heavy_check_mark: Abrir endereço do estabalecimento do profssional em seu Google Maps 
-- :heavy_check_mark: Filtros por Região e Tipos de serviço
-- :heavy_check_mark: Detecta região onde você mora
+- Ranking dos trabalhos feitos pelos profissionais
+- Abrir endereço do estabalecimento do profssional em seu Google Maps 
+- Filtros por Região e Tipos de serviço
+- Detecta região onde você mora
 
 
 ## Fotos do Projeto
