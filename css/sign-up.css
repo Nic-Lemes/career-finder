@@ -145,6 +145,7 @@ a#sign-up.account {
   color: #9a9a9a;
 }
 
+/********** PRIVACY POLICY *********/
 #text-privacy {
   font-size: 10px;
   font-weight: 700;
@@ -159,6 +160,16 @@ a#sign-up.account {
   color: #0066FF;
 }
 
+/********** BUTTON *********/
+#create-btn {
+  margin-left: -15px;
+  margin-top: 15px;
+  height: 35px;
+  width: 150px;
+  border-radius: 30px;
+  color: #fff;
+  background: #622BBC;
+}
 
 /********** FOOTER *********/
 .footer {
