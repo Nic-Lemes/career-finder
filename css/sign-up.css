@@ -145,7 +145,19 @@ a#sign-up.account {
   color: #9a9a9a;
 }
 
+#text-privacy {
+  font-size: 10px;
+  font-weight: 700;
+  color: #9a9a9a;
+  width: 180px;
+  margin-top: 10px;
+  margin-left:140px;
+}
 
+#privacy-policy {
+  text-decoration: none;
+  color: #0066FF;
+}
 
 
 /********** FOOTER *********/
