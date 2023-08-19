@@ -1,5 +1,5 @@
 <h1 align="center"> Career Finder </h1>
-<img alt="GitHub" src="https://img.shields.io/github/license/Nic-Lemes/career-finder">
+
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nic-Lemes/career-finder">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/Nic-Lemes/career-finder">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Nic-Lemes/career-finder">
