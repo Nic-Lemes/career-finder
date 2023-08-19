@@ -3,13 +3,13 @@
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nic-Lemes/career-finder">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/Nic-Lemes/career-finder">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Nic-Lemes/career-finder">
-<img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge"> 
+
 
 <p align="justify"> Projeto criado para o Trabalho de Conclusão de Curso (TCC) do Curso técnico de Desenvolvimento de Sistemas. Após a pandemia, foi observado com base em pesquisas que o número de trabalhadores autônomos, ou seja, sem vínculo com empresas, aumentou muito em relação á anos anteriores da pandemia da Covid-19. Então, tal projeto tem como objetivo principal o cadastro de trabalhadores autônomos e assim ajudar ajudá-los a se conectar com a região para que conheçam seus serviços. </p>
 
 
 ## Status do Projeto
-:construction: Em desenvolvimento :construction:
+:construction: <img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge">  :construction:
 
 
 ## Funcionalidades :pushpin:
