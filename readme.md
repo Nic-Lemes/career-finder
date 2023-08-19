@@ -1,5 +1,5 @@
 <h1 align="center"> Career Finder </h1>
-<p align="justify"> Projeto de TCC com o objetivo de cadastro de trabalhadores autônomos </p>
+<p align="justify"> Projeto criado para o Trabalho de Conclusão de Curso (TCC) do Curso técnico de Desenvolvimento de Sistemas. Após a pandemia, foi observado com base em pesquisas que o número de trabalhadores autônomos, ou seja, sem vínculo com empresas, aumentou muito em relação á anos anteriores da pandemia da Covid-19. Então, tal projeto tem como objetivo principal o cadastro de trabalhadores autônomos e assim ajudar ajudá-los a se conectar com a região para que conheçam seus serviços. </p>
 <img alt="GitHub" src="https://img.shields.io/github/license/Nic-Lemes/career-finder">
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nic-Lemes/career-finder">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/Nic-Lemes/career-finder">
