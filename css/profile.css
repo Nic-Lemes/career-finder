@@ -74,3 +74,65 @@
   margin-left: 50px;
   margin-right: 30px;
 }
+
+/*********** SUMMARY **********/
+#profile-image {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-top: 40px;
+  margin-left: 545px;
+  margin-bottom: 95px;
+}
+
+#title {
+  margin-top: -90px;
+  margin-left: -50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#purple {
+  color: #622BBC;
+}
+
+#gold {
+  color: #DAA520;
+}
+
+.summary {
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.buttons {
+  margin-bottom: 100px;
+  margin-left: 480px;
+  margin-top: 30px;
+}
+
+#button-whatsapp {
+  width: 90px;
+  height: 150px;
+  background-color: #000;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #777;
+  padding: 12px;
+  border-radius: 20px;
+  color: #000;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
