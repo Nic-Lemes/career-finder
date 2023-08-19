@@ -1,5 +1,5 @@
 <h1 align="center"> 
-Career Finder 
+Career Finder <br>
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nic-Lemes/career-finder">
 <img alt="GitHub forks" src="https://img.shields.io/github/forks/Nic-Lemes/career-finder">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Nic-Lemes/career-finder">
@@ -10,7 +10,7 @@ Career Finder
 
 
 ## Status do Projeto
-:construction: <img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge">  :construction:
+<img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge">
 
 
 ## Funcionalidades :pushpin:
