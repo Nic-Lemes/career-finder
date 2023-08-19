@@ -1,10 +1,11 @@
 <h1 align="center"> Career Finder </h1>
 <p align="justify"> Projeto de TCC com o objetivo de cadastro de trabalhadores autônomos </p>
-https://img.shields.io/github/license/Nic-Lemes/career-finder
-https://img.shields.io/github/languages/count/Nic-Lemes/career-finder
-https://img.shields.io/github/forks/Nic-Lemes/career-finder
-https://img.shields.io/github/stars/Nic-Lemes/career-finder
-http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge
+<img alt="GitHub" src="https://img.shields.io/github/license/Nic-Lemes/career-finder">
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nic-Lemes/career-finder">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/Nic-Lemes/career-finder">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Nic-Lemes/career-finder">
+<img alt="status project" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=YELLOW&style=for-the-badge">
+
 
 ## Status do Projeto
 :construction: Em desenvolvimento :construction:
