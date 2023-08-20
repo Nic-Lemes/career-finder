@@ -10,9 +10,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* body {
-  background-color: ;
-} */
+ body {
+  overflow-x: hidden;
+} 
 
 /*********** HEADER **********/
 .header,
@@ -76,6 +76,10 @@
 }
 
 /*********** SUMMARY **********/
+.landing-page {
+  margin-top: 30px;
+}
+
 #profile-image {
   width: 200px;
   height: 200px;
@@ -122,11 +126,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #777;
   padding: 12px;
   border-radius: 20px;
   color: #000;
   margin-left: 10px;
+  background-color: #622BBC;
+  color: #fff;
 }
 
 a {
