@@ -138,6 +138,17 @@ a {
   text-decoration: none;
 }
 
+#arrow-down {
+  background-color: #622BBC;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 5px;
+  transform: rotate(180deg);
+  margin-left: 630px;
+  margin-top: -600px;
+}
+
 
 
 
