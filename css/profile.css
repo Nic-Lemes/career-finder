@@ -159,7 +159,7 @@ a {
   margin-top: 120px;
 }
 
-pre#span-about {
+pre#pre-about {
   position: absolute;
   transform-origin: 0 1;
   transform: rotate(-90deg);
@@ -223,6 +223,54 @@ a.links {
   color: #0500FF;
 }
 
+/*********** SKILLS **********/
+
+.left-skills {
+  width: 600px;
+}
+
+pre#pre-skills{
+  position: absolute;
+    transform-origin: 0 1;
+    transform: rotate(-90deg);
+    color: #7D7D7D;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 115px;
+}
+
+.text-skills {
+  margin-top: 150px;
+}
+
+#title-skills {
+  font-size: 25px;
+  margin-left: 170px;
+  font-weight: 700;
+
+}
+
+#desc-skills {
+  margin-left: 170px;
+  align-items: justify;
+  width: 300px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.apps {
+  margin-left: 170px;
+  margin-top: 20px;
+
+}
+
+.progress-bar {
+  background: #622BBC;
+  width: 90%;
+  justify-content: right;
+  border-radius: 60px;
+  padding: 2px;
+}
 
 
 
