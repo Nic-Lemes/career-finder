@@ -149,6 +149,82 @@ a {
   margin-top: -600px;
 }
 
+/*********** ABOUT ME **********/
+
+#img-about-me {
+  width: 403px;
+  height: 354px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+pre#span-about {
+  position: absolute;
+  transform-origin: 0 1;
+  transform: rotate(-90deg);
+  color: #7D7D7D;
+  font-weight: 600;
+  margin-left: 490px;
+  margin-top: -165px;
+}
+
+.text-about {
+  margin-left: 790px;
+  margin-top: -110px;
+}
+
+#title-about {
+  margin-top: -320px;
+}
+
+#desc-about {
+  margin-top: 15px;
+  width: 300px;
+  text-align: justify;
+}
+
+#title-links{
+  margin-left: 790px;
+  margin-top: 25px;
+  margin-bottom: -15px;
+}
+
+.links-section {
+  display: flex;
+  align-items: center;
+  margin-left: 785px;
+  margin-top: 20px;
+}
+
+.icons-links {
+  width: 50px;
+  height: 50px;
+  padding-right: 5px;
+}
+
+a.links {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 5px;
+  font-weight: 700;
+}
+
+#behance {
+  color: #06F;
+  align-items: center;
+}
+
+#dribbble {
+  color: #F09;
+}
+
+#instagram {
+  color: #0500FF;
+}
+
+
+
 
 
 
