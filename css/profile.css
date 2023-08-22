@@ -235,8 +235,8 @@ pre#pre-skills{
     transform: rotate(-90deg);
     color: #7D7D7D;
     font-weight: 600;
-    margin-left: 15px;
-    margin-top: 115px;
+    margin-left: -10px;
+    margin-top: 145px;
 }
 
 .text-skills {
@@ -261,16 +261,42 @@ pre#pre-skills{
 .apps {
   margin-left: 170px;
   margin-top: 20px;
-
 }
 
-.progress-bar {
-  background: #622BBC;
-  width: 90%;
-  justify-content: right;
-  border-radius: 60px;
-  padding: 2px;
+.skills-bar {
+  display: grid;
+  gap: 6px;
 }
+
+.container {
+  width: 90%; /* Full width */
+  height: 20px;
+  background-color: #000; /* Grey background */
+  border-radius: 30px;
+}
+
+.skills {
+  border-radius: 30px;
+  height: 20px;
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+}
+
+.photoshop {
+  width: 90%; background-color: #622BBC;
+  text-align: right;
+}
+
+.illustrator {
+  width: 80%; background-color: #622BBC;
+  text-align: right;
+}
+
+.sketch {
+  width: 70%; background-color: #622BBC;
+  text-align: right;
+} 
+
 
 
 
