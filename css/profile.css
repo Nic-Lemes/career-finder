@@ -271,17 +271,17 @@ pre#pre-skills{
 }
 
 .container {
-  width: 90%; /* Full width */
+  width: 90%; 
   height: 20px;
-  background-color: #000; /* Grey background */
+  background-color: #000; 
   border-radius: 30px;
 }
 
 .skills {
   border-radius: 30px;
   height: 20px;
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
+  padding-top: 10px; 
+  padding-bottom: 10px;
 }
 
 .photoshop {
@@ -299,6 +299,44 @@ pre#pre-skills{
   text-align: right;
 } 
 
+
+/*********** CARDS **********/
+.grid-container {
+  display: grid;
+  margin-top: -350px;
+  margin-left: 650px;
+  gap: 10px;
+}
+
+.card {
+  display: block;
+  width: 210px;
+  height: 210px;
+  background: #F2F2F2;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 6px 5px 6px 2px rgba(0, 0, 0, 0.20);
+
+}
+
+.card-img {
+  background: #000;
+  border-radius: 32px;
+  padding: 7px;
+  vertical-align: middle;
+  margin-top: 40px;
+}
+
+.card-title {
+  font-family: 'Azeret Mono', monospace;
+}
+
+.cards-right {
+  display: grid;
+  margin-left: 250px;
+  margin-top: -470px;
+}
 
 
 
