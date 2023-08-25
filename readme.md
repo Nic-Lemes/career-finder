@@ -24,7 +24,7 @@ Career Finder <br>
 
 
 ## Fotos do Projeto
-<img src="" alt="Tela 1">
+<img src="./assets/landing page.png" alt="Foto da Landing Page">
 <img src="" alt="Tela 2">
 <img src="" alt="Tela 3">
 <img src="" alt="Tela 4">
