@@ -12,7 +12,6 @@
 
 /*********** BODY ***********/
 body {
-  background: linear-gradient(90deg, #010440 0%, #2B278C 51.04%, #5451A6 100%) no-repeat;
   overflow-x: hidden;
 }
 
@@ -24,8 +23,7 @@ body {
   align-items: center;
   height: 60px;
   width: 1366px;
-  background: linear-gradient(90deg, #010440 0%, #2B278C 51.04%, #5451A6 100%);
-  box-shadow: 0px 1px 0px 0px rgb(196, 196, 196);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
 }
 
 /*********** LOGO **********/
@@ -77,14 +75,6 @@ a#sign-up.account {
   justify-content: center;
   margin-left: 980px;
   background: #FFF;
-}
-
-/*********** MENU HAMBURGUER **********/
-#menu {
-  width: 30px;
-  height: 25px;
-  margin-left: 50px;
-  margin-right: 30px;
 }
 
 /*********** CENTER CARD**********/
@@ -221,4 +211,141 @@ a#sign-up.account {
   align-items: center;
   justify-content: center;
   border-radius: 40px;
+}
+
+/*********** MEDIA QUERY **********/
+@media (min-width: 1500px) {
+
+  /*********** HEADER DESKTOP **********/
+  .header,
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    width: 1950px;
+  }
+  
+  /*********** LOGO DESKTOP **********/
+  .logo {
+    margin-top: -2px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 200px;
+    height: 30px;
+  }
+  
+  /*********** SIGN IN DESKTOP **********/
+  .account {
+    margin-left: 1500px;
+  } 
+  
+  a#sign-up.account {
+    margin-left: 1600px;
+  }
+  
+  /*********** CENTER CARD DESKTOP **********/
+  .center-card {
+    width: 600px;
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 600px;
+    padding: 5px;
+  }
+
+  #title {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  #others {
+    margin-top: 20px;
+  }
+  
+  .inputs {
+    width: 450px;
+    height: 45px;
+    margin-top: 15px;
+    font-weight: 700;
+  }
+  
+  .inputs-others {
+    display: block;
+    width: 350px;
+    height: 39px;
+  }
+  
+  /********** PRIVACY POLICY *********/
+  #text-privacy {
+    font-size: 11px;
+    width: 180px;
+    margin-left: 195px;
+  }
+  
+  /********** BUTTON *********/
+  #create-btn {
+    height: 40px;
+  }
+
+  /*********** FOOTER DESKTOP**********/
+.footer {
+  width: 100vw;
+  height: 200px;
+  color: #000;
+  display: flex;
+  margin-left: 30px;
+}
+
+#logo-footer {
+  margin-top: 100px;
+  width: 330px;
+}
+
+.copyright {
+  color: #000;
+}
+
+#names {
+  display: flex;
+  margin-top:150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: -1030px;
+  font-size: 16px;
+  margin-top: 190px;
+}
+
+#names a {
+  text-decoration: none;
+}
+
+.gold {
+  color: #DAA520;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 70px;
+  gap: 20px;
+  margin-left: 1100px;
+}
+
+.icons-social-media {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background: #DEE;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+}
 }
