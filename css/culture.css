@@ -10,10 +10,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* body {
-  background-color: ;
-} */
-
 /*********** HEADER **********/
 .header,
 .header-nav {
@@ -66,14 +62,6 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
   stroke: #000;
 }  
-
-/*********** MENU HAMBURGUER **********/
-#menu {
-  width: 30px;
-  height: 25px;
-  margin-left: 50px;
-  margin-right: 30px;
-}
 
 #city-division {
   display: flex;
