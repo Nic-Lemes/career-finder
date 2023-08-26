@@ -63,14 +63,6 @@
   stroke: #000;
 }  
 
-/*********** MENU HAMBURGUER **********/
-#menu {
-  width: 30px;
-  height: 25px;
-  margin-left: 50px;
-  margin-right: 30px;
-}
-
 #city-division {
   display: flex;
   margin-top: 30px;
