@@ -61,7 +61,7 @@ body {
   text-align: center;
   border-radius: 20px;
   border: 1px solid black;
-  margin-left: 900px;
+  margin-left: 970px;
   padding: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.30);
   stroke: #000;
@@ -73,7 +73,7 @@ a#sign-up.account {
   margin-top: -46px;
   display: flex;
   justify-content: center;
-  margin-left: 980px;
+  margin-left: 1050px;
   background: #FFF;
 }
 
@@ -186,6 +186,7 @@ a#sign-up.account {
   text-align: center;
   margin-left: -800px;
   font-size: 13px;
+  color: #000;
 }
 
 #names a {
