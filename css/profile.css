@@ -69,14 +69,6 @@
   stroke: #000;
 }  
 
-/*********** MENU HAMBURGUER **********/
-#menu {
-  width: 30px;
-  height: 25px;
-  margin-left: 50px;
-  margin-right: 30px;
-}
-
 /*********** SUMMARY **********/
 .landing-page {
   margin-top: 30px;
@@ -317,7 +309,7 @@ pre#pre-skills{
   text-align: center;
   margin-top: 20px;
   box-shadow: 6px 5px 6px 2px rgba(0, 0, 0, 0.20);
-
+  border: 0.5px solid #000;
 }
 
 .card-img {
@@ -391,6 +383,211 @@ pre#pre-skills{
   align-items: center;
   justify-content: center;
   border-radius: 40px;
+}
+
+
+/*********** MEDIA QUERY **********/
+@media (min-width: 1500px) {
+
+/*********** HEADER DESKTOP **********/
+.header,
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 1950px;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 1px 10px 3px rgb(196, 196, 196);
+}
+
+/*********** LOGO DESKTOP **********/
+.logo {
+  margin-top: -2px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  height: 30px;
+}
+
+/*********** SIGN IN DESKTOP **********/
+.account {
+  width: 110px;
+  height: 35px;
+  margin-top: 0px;
+  margin-left: 1500px;
+}  
+
+/*********** SUMMARY DESKTOP**********/
+.landing-page {
+  margin-top: 130px;
+}
+
+#profile-image {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-top: 60px;
+  margin-left: 800px;
+  margin-bottom: 105px;
+}
+
+#title {
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.summary {
+  font-size: 20px;
+}
+
+
+.buttons {
+  margin-bottom: 100px;
+  margin-left: 740px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.button {
+  padding: 16px;
+
+}
+
+#arrow-down {
+  width: 65px;
+  height: 65px;
+  margin-left: 900px;
+  margin-top: -600px;
+}
+
+/*********** ABOUT ME DESKTOP **********/
+
+#img-about-me {
+  width: 453px;
+  height: 404px;
+  display: flex;
+  margin-left: 250px;
+}
+
+pre#pre-about {
+  margin-left: 775px;
+}
+
+.text-about {
+  margin-left: 1150px;
+}
+
+#title-links{
+  margin-left: 1145px;
+}
+
+.links-section {
+  margin-left: 1140px;
+  margin-bottom: 50px;
+}
+
+/*********** SKILLS DESKTOP**********/
+
+.left-skills {
+  width: 700px;
+  margin-left: 200px;
+}
+
+
+/*********** CARDS **********/
+.grid-container {
+  display: grid;
+  margin-top: -350px;
+  margin-left: 850px;
+  gap: 10px;
+}
+
+.card {
+  display: block;
+  width: 210px;
+  height: 210px;
+  background: #F2F2F2;
+  border-radius: 30px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 6px 5px 6px 2px rgba(0, 0, 0, 0.20);
+
+}
+
+.card-img {
+  background: #000;
+  border-radius: 32px;
+  padding: 7px;
+  vertical-align: middle;
+  margin-top: 40px;
+}
+
+.card-title {
+  font-family: 'Azeret Mono', monospace;
+}
+
+.cards-right {
+  display: grid;
+  margin-left: 250px;
+  margin-top: -470px;
+}
+
+/*********** FOOTER **********/
+.footer {
+  width: 100vw;
+  height: 200px;
+  color: #000;
+  display: flex;
+  margin-left: 30px;
+}
+
+#logo-footer {
+  margin-top: 100px;
+  width: 330px;
+}
+
+.copyright {
+  color: #000;
+}
+
+#names {
+  display: flex;
+  margin-top:150px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: -1030px;
+  font-size: 16px;
+  margin-top: 190px;
+}
+
+#names a {
+  text-decoration: none;
+}
+
+.gold {
+  color: #DAA520;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 70px;
+  gap: 20px;
+  margin-left: 1100px;
+}
+
+.icons-social-media {
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background: #DEE;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
 }
 
 
