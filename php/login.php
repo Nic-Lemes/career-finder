@@ -1,9 +1,9 @@
 <?php
 // Configurações de conexão com o banco de dados
 $servername = "localhost";
-$username = "seu_usuario";
-$password = "sua_senha";
-$dbname = "seu_banco_de_dados";
+$username = "root";
+$password = " ";
+$dbname = "career_finder";
 
 // Cria a conexão com o banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
