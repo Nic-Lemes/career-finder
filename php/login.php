@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = " ";
-$dbname = "career_finder";
+$dbname = "CAREER_FINDER";
 
 // Cria a conexão com o banco de dados
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -13,32 +13,26 @@ if ($conn->connect_error) {
     die("Conexão falhou: " . $conn->connect_error);
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $nome = $_POST["nome"];
-  $email = $_POST["email"];
-  $senha = $_POST["senha"];
-  $telefone = $_POST["telefone"];
-  $cidade = $_POST["cidade"];
-  $uf = $_POST["uf"];
+// Consulta para selecionar todos os profissionais autônomos
+$sql = "SELECT * FROM ProfissionaisAutonomos";
+$result = $conn->query($sql);
 
-  // Verifica se o e-mail já existe na tabela
-  $checkEmailQuery = "SELECT id FROM ProfissionaisAutonomos WHERE email = '$email'";
-  $result = $conn->query($checkEmailQuery);
-
-  if ($result->num_rows > 0) {
-      echo "O e-mail já está em uso. Por favor, escolha outro.";
-  } else {
-      // Insere o novo profissional na tabela
-      $insertQuery = "INSERT INTO ProfissionaisAutonomos (nomeCompleto, email, senha, numeroTelefone, cidade, uf) VALUES ('$nome', '$email', '$senha', '$telefone', '$cidade', '$uf')";
-      if ($conn->query($insertQuery) === TRUE) {
-          echo "Cadastro realizado com sucesso!";
-      } else {
-          echo "Erro ao cadastrar: " . $conn->error;
-      }
-  }
+// Verifica se há resultados
+if ($result->num_rows > 0) {
+    // Loop através dos resultados e exibe os dados
+    while ($row = $result->fetch_assoc()) {
+        echo "ID: " . $row["id"] . "<br>";
+        echo "Nome: " . $row["nomeCompleto"] . "<br>";
+        echo "Email: " . $row["email"] . "<br>";
+        echo "Telefone: " . $row["numeroTelefone"] . "<br>";
+        echo "Cidade: " . $row["cidade"] . "<br>";
+        echo "UF: " . $row["uf"] . "<br>";
+        echo "<br>";
+    }
+} else {
+    echo "Nenhum resultado encontrado.";
 }
 
 // Fecha a conexão com o banco de dados
 $conn->close();
-
 ?>
